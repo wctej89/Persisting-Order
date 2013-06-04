@@ -1,0 +1,7 @@
+<div class="container">
+  <ul id="sortable">
+    <% @items.each do |item| %>
+      <li id="<%=item.position%>"><%=item.name%></li>
+    <% end %>
+  </ul>
+</div>
